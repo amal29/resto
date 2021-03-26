@@ -292,9 +292,9 @@ h3 {
     margin-top: 12%;
     font-size: 4px;
  }
- .pp{
-  font-size: 4px;
-
+ .prc span{
+  font-size: 16px!important;
+  font-weight:200;
  }
 
  .title1 h4 {
