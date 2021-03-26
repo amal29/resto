@@ -290,7 +290,11 @@ h3 {
 @media (max-width: 640px) {
   .booknow {
     margin-top: 12%;
-    font-size: 6px;
+    font-size: 4px;
+ }
+ .pp{
+  font-size: 4px;
+
  }
 
  .title1 h4 {
