@@ -36,36 +36,47 @@
   </head>
   <body>
     <!---nav bar-->
-    <div id="myNav" class="overlay">
-      <a href="#" class="closebtn" onclick="closeNav()">×</a>
+   
+    <div id="myNav" class="overlay col-12 col-sm-12 ">
 
-      <div class="overlay-content">
-        <a href="#">Login</a>
-        <a href="#">SignUp</a>
-        <a href="#">AboutUs</a>
-        <a href="#">ContactUs</a>
+      <button
+      class="navbar-toggler col-12  btn"
+      type="button"
+      id="btnclose"
+      onclick="closeNav()"
+            style="color: white !important"
+    >
+      <span><i class="fa fa-window-close  "  id="bb"style="font-size: 24px;padding-left:60%"></i> </span>
+    </button>
+      <!-- <a href="#" id="closebtn" onclick="closeNav()">×</a> -->
+
+      <div class="overlay-content" >
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">MyRoom</a>
       </div>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-10 col-sm-10 ">
+        <div class="row  icn">
+          <div class="col-6 col-sm-6 col-md-6  hed">
             <a class="navbar-brand" href="#"
-            ><span class="sun">SUN</span> <span class="rise">RISE</span>
+            >
+            <span class="sun">SUN</span> <span class="rise">RISE</span>
             <div class="logo_des">YOUR DREAMY RESOURT</div></a
           >
   
           </div>
-          <div class="col-2 col-sm-2   btnbar" >
+          <div class="col-6   btnbar mr-auto text-right" >
             <button
-            class="navbar-toggler col-12 "
+            class="navbar-toggler col-12  btn "
             type="button"
             id="btnid"
             onclick="openNav()"
             style="color: white !important"
           >
-            <span><i class="fa fa-bars float-right" style="font-size: 24px"></i> </span>
+            <span><i class="fa fa-bars " style="font-size: 24px;"></i> </span>
           </button></div>
 
         </div>
@@ -326,7 +337,7 @@
 
               <div class="card-body">
                 <div class="row">
-                  <div class="col text-center m-1">
+                  <div class="col text-center m-1" style="color: blue;">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -359,7 +370,7 @@
 
               <div class="card-body">
                 <div class="row">
-                  <div class="col text-center m-1">
+                  <div class="col text-center m-1" style="color: blue;">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -392,7 +403,7 @@
  
               <div class="card-body">
                 <div class="row">
-                  <div class="col text-center m-1">
+                  <div class="col text-center m-1" style="color: blue;">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -425,7 +436,7 @@
 
               <div class="card-body">
                 <div class="row">
-                  <div class="col text-center m-1">
+                  <div class="col text-center m-1" style="color: blue;">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -496,7 +507,7 @@
                     type="submit"
                     name="sub"
                     value="Send Now"
-                    class="btn btn-primary mt-3 btn_snd"
+                    class="btn btn-primary btn-sm mt-3 btn_snd"
                   />
                 </div>
               </form>
@@ -505,7 +516,7 @@
 
           <div class="col-md-6 ">
             <div class="row">
-              <div class="col-12 mt-4">
+              <div class="col-12 ">
                 <div class="text-block2 ">
                   <h4 class="text-center main">Connect With Us</h4>
                   <form class="frm m-2">
@@ -513,7 +524,7 @@
                       <label class="contact-p1">Phone: +94 (65)222-44-55</label><br>
                      <label class="contact-p1 mt-2">Email: info@gmail.com</label><br>
                      <label class="contact-p1 mt-2 ">Address: New Kalmunai Road, Batticaloa, Sri Lanka</label><br><br>
-                     <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.7905052320443!2d-77.84987248482734!3d39.586871613613056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c9f6a80ccf0661%3A0x7210426c67abc40!2sVirginia+Welcome+Center%2FSafety+Rest+Area!5e0!3m2!1sen!2sin!4v1485760915662" ></iframe> -->
+                     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.7905052320443!2d-77.84987248482734!3d39.586871613613056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c9f6a80ccf0661%3A0x7210426c67abc40!2sVirginia+Welcome+Center%2FSafety+Rest+Area!5e0!3m2!1sen!2sin!4v1485760915662" ></iframe>
                      <ul class="itm" style="right: 5%;">
                       <i class="fab fa-facebook-square"></i>            
                        <i class="fab fa-twitter-square"></i>
