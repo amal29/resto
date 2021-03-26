@@ -99,7 +99,6 @@ body {
   .pp {
     padding-right: 2%;
   }
-  
 }
 /* 
 @media (max-width: 350px) {
@@ -126,7 +125,6 @@ body {
     transition: 0.5s;
     z-index: 999;
   }
-  
 }
 
 nav {
@@ -291,18 +289,16 @@ h3 {
   .booknow {
     margin-top: 12%;
     font-size: 4px;
- }
- .prc span{
-  font-size: 16px!important;
-  font-weight:200;
- }
+  }
+  .prc span {
+    font-size: 16px !important;
+    font-weight: 200;
+  }
 
- 
-
- .title1 h4 {
-  padding-left: 1%;
-  font-size: 12px;
-}
+  .title1 h4 {
+    padding-left: 1%;
+    font-size: 12px;
+  }
   .overlay {
     height: 38%;
   }
@@ -327,14 +323,13 @@ h3 {
   .overlay {
     height: 27%;
   }
-  
 }
 
 @media (min-width: 700px) {
   .booknow {
     margin-top: 12%;
     font-size: 12px;
- }
+  }
   #myNav {
     display: none;
   }
